@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JobVacancies</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content ="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<title>ICIP</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="{% static 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' %}"></script>
+	<script src="{% static 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' %}"></script>
+	<script src="{% static 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'https://use.fontawesome.com/releases/v5.0.8/js/all.js' %}"></script>
+	<link href="{% static 'style.css" rel="stylesheet' %}">
+	<link href="{% static 'custom.css" rel="stylesheet' %}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body style="background-image: url({% static 'bg_image.jpg' %});background-attachment: fixed;">
+
+	<nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top"><div class="container-fluid">
+	<a class="navbar-brand" href="#"><img style="width: 60px;" src="{% static 'img/WhatsApp%20Image%202020-03-11%20at%2023.41.52%20(1).jpeg' %}" class="rounded-pill"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" ><span class="navbar-toggler-icon"></span></button>
+	<div class="collapse navbar-collapse" id=navbarResponsive>
+	<ul class="navbar-nav ml-auto ">
+		<li class="nav-item active">
+		
+		<a class="nav-link text-white" href="{% url 'newsfeed' %}">Newsfeed</a></li>
+			<li class="nav-item active">
+		<a class="nav-link text-white" href="{% url 'logout' %}">Log Out</a></li>
+			<li class="nav-item active">
+		 
+		</ul>
+	</div>
+	</div>
+	</nav>
+
+	<div class="container">
+		<img src="{% static 'project_image.jpg' %}" width="100%" height="250px" align="center">
+		<br>
+		<h4 class = "display-4 text-center">Job vacancies &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<small class = "text-muted text-right" style="font-size: 20px;">make your dreams come true</small></h2>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-md-10 mb-3 mx-auto" >
+				<div class="card" style="background-color: white;border-radius: 20px; border: 1px solid #999;">
+				  <div class="card-header" style="font-size: 30px;">
+				    Zerodha
+				  </div>
+				  <div class="card-body">
+				    <img src="{% static 'zerodha-Logo.jpg' %}">
+				    <p class="card-text">Zerodha job openings in India for the vacancies of entry level engineers and IT internship jobs. Interested and eligible candidates can apply online for Zerodha careers in India through registration link provided below.   Zerodha is looking for Promising, Energetic, Disciplined and Young Indian Citizen with bright academic record to join the organization. The selected candidates will be placed in the decided post with best pay scale offered in the market. Before applying for the post Aspirants will have to make sure they fit the eligibility criteria such as educational qualification, age limit as such and if they find themselves appropriate or relevant then they could get down on to the Application form, fill in with the appropriate details, submit. If the candidates perform well in the selection process then candidates will be chosen for the vacancy.Job vacancies are for Database manager,Executive manager,e.t.c </p>
+				    <a href="#" class="btn btn-primary ml-auto">click to Apply</a>
+				    <a href="#" class="btn btn-primary">Company Profile</a>
+				  </div>
+				</div>
+				<br><br><br>
+				<div class="card" style="background-color: white;border-radius: 20px; border: 1px solid #999;">
+				  <div class="card-header" style="font-size: 30px;">
+				    Tessolve
+				  </div>
+				  <div class="card-body">
+				    <img src="{% static 'tessolve1.jpg' %}">
+				    <p class="card-text">we update latest jobs in Tessolve company. This page is a one-stop destination for all Tessolve walk-ins, off campus drives, referral drives and many other recruitment drives across India (Ahmedabad, Bangalore, Chennai, Delhi, Hyderabad, Mumbai, Pune, Noida, Gurgaon, Kolkata, Vijayawada, Cochin and other cities)Aspirants who had the passion for working in Tessolve as an Entry Level Engineer here is the good news. To secure this opportunity candidates can participate in the recruitment process which will be conducted by the company officials. This company is currently conducting the interviews for both Graduates and Post Graduates across the India. Candidate can choose the interview location according to their convenience.Job vacancies are for project manager,IT manager,e.t.c . </p>
+				    <a href="#" class="btn btn-primary ml-auto">click to Apply</a>
+				    <a href="#" class="btn btn-primary">Company Profile</a>
+				  </div>
+				</div>
+				<br><br><br>
+				<div class="card" style="background-color: white;border-radius: 20px; border: 1px solid #999;">
+				  <div class="card-header" style="font-size: 30px;">
+				    Voonik
+				  </div>
+				  <div class="card-body">
+				    <img src="{% static 'voonik.jpg' %}">
+				    <p class="card-text">Candidates will be chosen for the vacancy only after reviewing their performance shown during the written exam and personal interview which will be decided by the Voonik. Aspirants should practice Voonik placement papers to crack Voonik written exam or Voonik online test. Before starting your preparation you should always check latest Voonik test pattern and syllabus. So that you can clear the exam and interview easily. In this section, we update latest jobs in Voonik company.This page is a one-stop destination for all Voonik walk-ins, off campus drives, referral drives and many other recruitment drives across India (Ahmedabad, Bangalore, Chennai, Delhi, Hyderabad, Mumbai, Pune, Noida, Gurgaon, Kolkata, Vijayawada, Cochin and other cities).Job vacancies are for  Web developer,Shift engineers,e.t.c .</p>
+				    <a href="#" class="btn btn-primary ml-auto">click to Apply</a>
+				    <a href="#" class="btn btn-primary">Company Profile</a>
+				  </div>
+				</div>
+				<br><br><br>
+				<div class="card" style="background-color: white;border-radius: 20px; border: 1px solid #999;">
+				  <div class="card-header" style="font-size: 30px;">
+				    Suzlon
+				  </div>
+				  <div class="card-body">
+				    <img src="{% static 'suzlon.png' %}">
+				    <p class="card-text">At Suzlon, our employees are an integral part of our success. The entrepreneurial spirit runs across all spectrums of our operations. The high performance culture at Suzlon offers employees immense operational freedom and growth opportunities, with the advantage of learning from its global presence and network. Explore the latest job opportunities at Suzlon here.job vacancies available for Data Scientist,Lead digital platforms,Lead vap sales,e.t.c .</p>
+				    <a href="#" class="btn btn-primary ml-auto">click to Apply</a>
+				    <a href="#" class="btn btn-primary">Company Profile</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
+
+
+

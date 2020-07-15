@@ -1,0 +1,23 @@
+.newsfeed{
+    margin-top: 20px;
+}
+
+.col1{
+        margin-left: 20px;
+    padding: 0;
+    
+}
+
+.col2{
+    margin-left: 25px;
+       padding: 0;
+}
+
+.card1{
+    height: 300px;
+    overflow: scroll;
+}
+
+.card{
+    margin-top: 15px;
+}
