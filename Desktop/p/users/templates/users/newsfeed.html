@@ -1,0 +1,168 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="{% static 'img/WhatsApp%20Image%202020-03-11%20at%2023.41.52%20(1).jpeg' %}" type="image/icon type">
+	<title>ICIP</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="{% static 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' %}"></script>
+	<script src="{% static 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' %}"></script>
+	<script src="{% static 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'https://use.fontawesome.com/releases/v5.0.8/js/all.js' %}"></script>
+	<link href="{% static 'style.css" rel="stylesheet' %}">
+	<link href="{% static 'custom.css" rel="stylesheet' %}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top"><div class="container-fluid">
+	<a class="navbar-brand" href="#"><img style="width: 60px;" src="{% static 'img/WhatsApp%20Image%202020-03-11%20at%2023.41.52%20(1).jpeg' %}" class="rounded-pill"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" ><span class="navbar-toggler-icon"></span></button>
+	<div class="collapse navbar-collapse" id=navbarResponsive>
+	<ul class="navbar-nav ml-auto ">
+		<li class="nav-item active">
+		
+		<a class="nav-link text-white" href="{% url 'jobvacancies' %}">Job Vacancies</a></li>
+			<li class="nav-item active">
+		<a class="nav-link text-white" href="{% url 'logout' %}">Log Out</a></li>
+			<li class="nav-item active">
+		 
+		</ul>
+	</div>
+	</div>
+	</nav>
+<div class="container-fluid newsfeed" style="background-color:#e9ebee">
+  <div class="row" >
+    <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2 col1">
+      <div class="card">
+		  <div class="card-body"><a href="#">Announcements</a></div>
+		  <div class="card-body"><a href="#">Most Viewed</a></div>
+		  <div class="card-body"><a href="#">Recent</a></div>
+  
+</div>
+    </div>
+    <div class="col-sm-9 col-md-6 col-lg-8 col-xl-6 col2">
+		<div class="card">
+			<div class="card-header"  ><p style="font-weight: bold; margin: 0 0;">Create Post</p></div>
+		<div class="card-body" style="padding: 0 0;margin: 0 0;"><img src="{% static 'img/92979836-profile-anonymous-face-icon-gray-silhouette-person-male-default-avatar-photo-placeholder-isolated-on.jpg' %}" style="height: 45px;margin: 10px 10px;display: inline-block;float: left;">
+			<div style="border-left: 3px;"><p style="color: #9daaab;margin:0 0;" >Start a post...</p>
+			<p style="color: #9daaab;margin:0 0;" >Share your ideas...</p></div>
+			</div>
+		</div>
+		
+      <div class="card">
+   <div class="card-header " style="padding: 0 0;margin: 0 0;">
+	    <svg  style="float: right; margin: 12px 12px;"class="bi bi-three-dots" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M3 9.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" clip-rule="evenodd"/>
+</svg>
+	   <img style="height: 45px;margin: 10px 10px;display: inline-block;float: left;" src="{% static 'img/768px-NafSadh_Profile.jpg' %}" class="rounded-circle">
+	   <a href="#"><p class="card-text" style="color: #023d5b; margin: 0;line-height: 145%;letter-spacing: 0.5px;
+">Naffer Sadh</p></a>
+	   <p class="card-text" style="color: #868988; font-size: 12px ; ">22hrs <a href=#><i class="fa fa-globe"></i></a></p>
+		  </div>
+  <div class="card-body card1">I'm glad to share with you that I've secured the 28th Position 🏆 in The Technical Scripter Event organised by #GeeksforGeeks . 
+
+Thanks to everyone who voted for my article 👍<br>
+https://lnkd.in/fqsvZKF<br>
+https://lnkd.in/gzSe46h<br>
+
+Thank you Sandeep Jain ,Anshul Aggarwal and GeeksforGeeks for this lovely opportunity #TechnicalScripter2019 🌟. 
+
+#contentwriter #technicalwriter #internship #contest #tech #article #opportunity
+		  <img  class="card-img" src="{% static 'img/0.jpg' %}"></div>
+  <div class="card-footer"><i class="fas fa-thumbs-up"></i> Like 	&nbsp;	&nbsp;	&nbsp; <i class="fa fa-comments" aria-hidden="true"></i> Comment &nbsp;	&nbsp;	&nbsp; <i class="fas fa-share-alt"></i> Share</div>
+</div>
+	
+ <div class="card">
+   <div class="card-header " style="padding: 0 0;margin: 0 0;">
+	    <svg  style="float: right; margin: 12px 12px;"class="bi bi-three-dots" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M3 9.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" clip-rule="evenodd"/>
+</svg>
+	   <img style="height: 45px;margin: 10px 10px;display: inline-block;float: left;" src="{% static 'img/aeecc22a67dac7987a80ac0724658493.jpg' %}" class="rounded-circle">
+	   <a href="#"><p class="card-text" style="color: #023d5b; margin: 0;line-height: 145%;letter-spacing: 0.5px;
+">Andrew Yang</p></a>
+	   <p class="card-text" style="color: #868988; font-size: 12px ; ">5d<a href=#><i class="fa fa-globe"></i></a></p>
+		  </div>
+  <div class="card-body card1">AI for accesibility 
+		 <div class="embed-responsive embed-responsive-16by9" style="margin-top: 5px;">
+ <iframe width="946" height="532" src="https://www.youtube.com/embed/bbrZ2pvubL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+  <div class="card-footer"><i class="fas fa-thumbs-up"></i> Like 	&nbsp;	&nbsp;	&nbsp; <i class="fa fa-comments" aria-hidden="true"></i> Comment &nbsp;	&nbsp;	&nbsp; <i class="fas fa-share-alt"></i> Share</div>
+</div>				
+		
+		
+<div class="card">
+	<div class="card-header " style="padding: 0 0;margin: 0 0;">
+	    <svg  style="float: right; margin: 12px 12px;"class="bi bi-three-dots" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M3 9.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" clip-rule="evenodd"/>
+</svg>
+	   <img style="height: 45px;margin: 10px 10px;display: inline-block;float: left;" src="{% static 'img/HGBACQ4FONDZXNSMYLCSMKJEGY.webp' %}" class="rounded-circle">
+	   <a href="#"><p class="card-text" style="color: #023d5b; margin: 0;line-height: 145%;letter-spacing: 0.5px;
+">Greta Thunder</p></a>
+	   <p class="card-text" style="color: #868988; font-size: 12px ; ">2d <a href=#><i class="fa fa-globe"></i></a></p>
+		  </div>
+	<div class="card-body card1">I have been working from home for the past few months. Here are some tips:<br>
+
+1) Demarcate a space for work<br>
+2) Communicate asynchronously<br>
+3) Block distractions with productivity tools<br>
+
+Books and blogs:<br>
+System Design - highscalability<br>
+Designing Data Intensive Applications - Martin Kleppmann<br>
+CLRS for algorithms - Introduction to Algorithms<br>
+Damn Cool Algorithms - Nick Johnson<br>
+12 rules for life - Jordan Peterson<br>
+Man's search for meaning - Viktor Frankl<br>
+
+Sites:<br>
+Codeforces<br> 
+Codingame <br>
+
+#WorkFromHome #WFH #CoronaVirus</div>
+		 <div class="card-footer"><i class="fas fa-thumbs-up"></i> Like 	&nbsp;	&nbsp;	&nbsp; <i class="fa fa-comments" aria-hidden="true"></i> Comment &nbsp;	&nbsp;	&nbsp; <i class="fas fa-share-alt"></i> Share</div>
+		
+		</div>	
+		
+ <div class="card">
+   <div class="card-header " style="padding: 0 0;margin: 0 0;">
+	    <svg  style="float: right; margin: 12px 12px;"class="bi bi-three-dots" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M3 9.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" clip-rule="evenodd"/>
+</svg>
+	   <img style="height: 45px;margin: 10px 10px;display: inline-block;float: left;" src="{% static 'img/vkVajfRz.jpg' %}" class="rounded-circle">
+	   <a href="#"><p class="card-text" style="color: #023d5b; margin: 0;line-height: 145%;letter-spacing: 0.5px;
+">Google</p></a>
+	   <p class="card-text" style="color: #868988; font-size: 12px ; ">2d <a href=#><i class="fa fa-globe"></i></a></p>
+		  </div>
+  <div class="card-body card1">To support the hundreds of millions of students and educators currently facing school closures, we're introducing Teach from Home—an initiative providing information, tips, training and tools to help remote teaching and learning.
+		  <img  class="card-img" src="{% static 'img/Screenshot%202020-03-25%2023.32.46.png' %}"></div>
+  <div class="card-footer"><i class="fas fa-thumbs-up"></i> Like 	&nbsp;	&nbsp;	&nbsp; <i class="fa fa-comments" aria-hidden="true"></i> Comment &nbsp;	&nbsp;	&nbsp; <i class="fas fa-share-alt"></i> Share</div>
+</div>
+		
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
